@@ -7,7 +7,7 @@ import emoji
 extract=URLExtract()
 
 def fetch_stats(selected_user, df):
-    if selected_user != 'Overall':
+    if selected_user != 'Overallgit ':
         df = df[df['User'] == selected_user]
     # fetch total number of messages
     num_messages = df.shape[0]
